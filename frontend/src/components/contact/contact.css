@@ -1,0 +1,59 @@
+.contact{
+    height :100vh;
+    width :100%;
+     background-color: rgba(10,101,10,.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+.contact  >form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    padding : 2rem;
+    width: 60%;
+    height: 80%;
+    justify-content: center;
+  
+}
+
+  .heading{
+        font-size:1.5rem;
+        font-family: "Roboto";
+        text-transform: uppercase;
+        margin :2rem 0;
+    }
+.input{
+
+    padding :1rem;
+    outline :none;
+    border :1px solid rgb(202,202,202);
+     margin: .5rem;
+     width: 60%;
+     border-radius: 10px;
+}
+    .textArea{
+        padding :1rem;
+        outline :none;
+        border :1px solid rgb(202,202,202);
+         margin: .5rem;
+         width: 60%;
+         border-radius: 10px;
+    } 
+
+.button {
+    background-color: red;
+    width: 60%;
+    padding : .5rem;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+    font-size:1rem;
+    
+    
+}

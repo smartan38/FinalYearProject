@@ -1,0 +1,76 @@
+.productsHeading{
+   border-bottom: 1px solid rgba(0,0,0,0.17);
+   width :8vw;
+   color :rgba(0,0,0,.68);
+   font :500 1.5vmax "Roboto";
+   padding :1vmax;
+     margin-left: 40rem;
+
+}
+.products{
+  height: 100%;
+    display :flex;
+    flex-wrap: wrap;
+    padding: 4vmax;
+    justify-content: center;
+}
+.paginationBox{
+  display: flex;
+  justify-content: center;
+  margin: 6vmax;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  padding:0 ;
+}
+.page-item{
+  list-style: none;
+  border: 1px solid rgba(0,0,0,0.178);
+  padding: 1vmax 1.4vmax;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+.page-link{
+  color: rgb(54, 52, 52);
+}
+.pageItemActive{
+background-color: tomato;
+}
+.page-item:hover{
+background-color: rgb(175, 178, 181);
+
+}
+
+.filterBox{
+  height:100vmax;
+  width :10vmax;
+  position: fixed;
+  top: 8vmax;
+  left:1vmax;
+}
+
+.filt{
+  margin-left: 4vmax;
+  
+}
+.cate{
+  margin-left :0;
+  padding-bottom: 1vmax;
+}
+.categoryBox{
+  padding: 0;
+  cursor: pointer;
+}
+.categoryLink{
+  list-style: none;
+  color:rgba(0,0,0,0.69);
+  margin-left: 1vmax;
+  padding: 0.2vmax;
+}
+.categoryLink:hover{
+
+  color:tomato;
+}
+  

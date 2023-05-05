@@ -1,0 +1,83 @@
+.banner{
+    background-image: linear-gradient(to left ,rgb(125, 144, 151),rgb(159, 173, 175));
+    height: 100vmin;
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.banner >h1{
+    margin :4vmax;
+    font :600 2.5vmax "Roboto";
+    color: rgb(67, 35, 17);
+}
+.banner>a>button{
+    margin-bottom: 5vmax;
+    cursor :pointer;
+    border  :none;
+    border-radius: 5px;
+    padding :1vmax;
+    background-color: rgb(67, 35, 17);
+    color: white;
+
+}
+
+.banner>a>button:hover{
+    font :300 1vmax "Roboto";
+    background-color: rgb(165, 160, 157);
+    color: rgb(39, 16, 3);
+
+}
+.banner::after{
+    content : "";
+    width: 100vw;
+    height: 110vmin;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    clip-path: polygon(100% 58%, 0% 100%, 100% 100%);  
+
+    max-width: 100%;
+}
+.featured{
+    text-align: center;
+    color:black;
+    border-bottom: 1px solid rgba(21,21,21,.5);
+    width :20vmax;
+    padding: 1vmax;
+    margin: 5vmax auto;
+}
+.productCard{
+    width :15vmax;
+    display : flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(67, 35, 17) ;
+    margin :2vmax;
+    transition: all 0.5s;
+    padding: 0.5vmax;
+}
+.productCard>img{
+    width: 15vmax;
+}
+.productCard >div{
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+}
+.productCard:hover{
+    box-shadow: 0 0 5px rgba(15 ,15 ,15 ,0.26);
+    border-radius: 8px;
+
+}
+.container{
+    display: flex;
+    margin: 2vmax auto;
+    width :80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}

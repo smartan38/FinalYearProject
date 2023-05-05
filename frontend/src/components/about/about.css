@@ -1,0 +1,45 @@
+.main{
+    height :100vmax;
+    width: 100%;
+    padding: .5vmax;
+ 
+    background-color: rgba(96,84,90,.27);
+}
+.main2{
+    margin-top: 17vmax;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.h2{
+    padding: 1.5vmax;
+    color:  rgba(91,15,53,.57);
+    font: italic bold 35px monospace
+}
+.para{
+    padding: 1vmax;
+    color:  rgba(91,15,53,.87);
+    font: bold 15px monospace;
+}
+.h3{
+    padding: 1vmax;
+    color:  rgb(91,15,53,);
+    font: bold 15px "Roboto";
+}
+.buttons {
+    background-color: rgb(91,15,53);
+    width: 100%;
+    padding : 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+    margin-top:1vmax;
+    font-size:1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}

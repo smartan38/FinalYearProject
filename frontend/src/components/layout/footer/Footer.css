@@ -1,0 +1,34 @@
+#footer{
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(10, 7, 7);
+    color :rgba(255, 221, 0, 0.904);
+    padding: 1.5rem;
+    margin-bottom: 0px;
+    /* position: fixed; */
+    bottom: 0;
+    /* left :0; */
+    width:96%;
+    box-shadow: 0 0 15px rgba(0,0,0,.79);
+}
+.rightFooter{
+    padding-top: 1rem;
+}
+.midFooter{
+    padding-top: 3rem;
+}
+.leftFooter{
+    padding-right: 3rem;
+}
+.socialMedia{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding-left: 3rem; */
+  
+}
+.icon{
+    padding: .3rem;
+}
+
